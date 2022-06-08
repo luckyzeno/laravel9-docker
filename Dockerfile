@@ -11,7 +11,9 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     php81-curl \
     php81-gd \
     php81-zip \
-    php81-phar
+    php81-phar \
+    jq \
+    bash
 
 COPY composer.phar /usr/local/bin/composer
 
