@@ -12,6 +12,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     php81-gd \
     php81-zip \
     php81-phar \
+    php81-openssl \
     jq \
     bash
 
