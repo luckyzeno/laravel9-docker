@@ -17,6 +17,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     php81-fileinfo \
     php81-xml \
     php81-dom \
+    php81-xmlwriter \
     jq \
     bash
 
