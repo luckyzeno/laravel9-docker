@@ -16,7 +16,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 COPY composer.phar /usr/local/bin/composer
 
 RUN mv /usr/bin/php81 /usr/bin/php \
-    chmod 755 /usr/local/bin/composer
+    && chmod 755 /usr/local/bin/composer
 
 
 # 设定工作目录
